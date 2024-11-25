@@ -34,8 +34,7 @@ function App() {
 
     return (
         <PrimeReactProvider>
-             {/* {isAuth ? <UserRouters /> : <GuestRoutes />} */}
-             <UserRouters />
+             {isAuth ? <UserRouters /> : <GuestRoutes />}
         </PrimeReactProvider>
     );
 }
